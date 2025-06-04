@@ -17,6 +17,11 @@ This project extracts Arabic text from images using Python, OpenCV, and pytesser
    ```bash
    pip install -r requirements.txt
    ```
+   for linux users, you may need to install tesseract using your package manager, e.g., `sudo apt install tesseract-ocr tesseract-ocr-ara`.
+3. Ensure you have the Arabic language data for Tesseract. You can check available languages with:
+   ```bash
+   tesseract --list-langs
+   ```
 
 ## Usage
 
